@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anuvad — Local Transcription & Translation</title>
+    <link rel="icon" href="/public/favicon.ico" />
+    <link data-trunk rel="css" href="style.css" />
+    <link data-trunk rel="rust" data-wasm-opt="z" data-bin="anuvad-app" href="crates/anuvad-app/Cargo.toml" />
+    <link data-trunk rel="copy-dir" href="workers" />
+    <link data-trunk rel="copy-dir" href="public" />
+</head>
+<body class="bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100 min-h-screen">
+    <div id="app"></div>
+</body>
+</html>
